@@ -1,0 +1,5 @@
+For Hand tracking MediaPipe is required:
+pip install mediapipe
+
+For Face model training:
+python -m pip install --user opencv-contrib-python

@@ -2,8 +2,8 @@
 pip3 install mediapipe
 
 ## References:
-Hand Detection: https://www.analyticsvidhya.com/blog/2021/07/building-a-hand-tracking-system-using-opencv/
-Robot Build and Joystick code: https://wiki.keyestudio.com/Ks0198_keyestudio_4DOF_Robot_Mechanical_Arm_Kit_for_Arduino_DIY
+*Hand Detection: https://www.analyticsvidhya.com/blog/2021/07/building-a-hand-tracking-system-using-opencv/
+*Robot Build and Joystick code: https://wiki.keyestudio.com/Ks0198_keyestudio_4DOF_Robot_Mechanical_Arm_Kit_for_Arduino_DIY
 
 ## Summary
 Base code is the one found in reference link. From that, hand positions are calculated using the relation between points from right hand using the following diagram:

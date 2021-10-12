@@ -1,5 +1,6 @@
 ## Dependencies:
-pip3 install mediapipe
+* Mediapipe - pip3 install mediapipe
+* OpenCV - pip3 install opencv-python
 
 ## References:
 * Hand Detection: https://www.analyticsvidhya.com/blog/2021/07/building-a-hand-tracking-system-using-opencv/

@@ -2,6 +2,14 @@
 * Mediapipe - pip3 install mediapipe
 * OpenCV - pip3 install opencv-python
 
+## ROS Instructions:
+* Tested with Noetic
+* Run master node
+  * roscore
+* Run Rosserial
+  * sudo chmod a+rw /dev/ttyUSB0
+  * rosrun rosserial_python serial_node.py /dev/ttyUSB0 
+
 ## References:
 * Hand Detection: https://www.analyticsvidhya.com/blog/2021/07/building-a-hand-tracking-system-using-opencv/
 * Robot Build and Joystick code: https://wiki.keyestudio.com/Ks0198_keyestudio_4DOF_Robot_Mechanical_Arm_Kit_for_Arduino_DIY

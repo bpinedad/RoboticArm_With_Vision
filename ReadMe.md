@@ -4,6 +4,7 @@
 
 ## ROS Instructions:
 * Tested with Noetic
+* Rosserial required. For noetic build from source. https://github.com/ros-drivers/rosserial
 * Run master node
   * roscore
 * Run Rosserial

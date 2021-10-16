@@ -3,13 +3,15 @@
 * OpenCV - pip3 install opencv-python
 
 ## ROS Instructions:
-* Tested with Noetic
+* Tested with Noetic. Python 3 was used, may present issues with other ROS releases.
 * Rosserial required. For noetic build from source. https://github.com/ros-drivers/rosserial
 * Run master node
   * roscore
 * Run Rosserial
   * sudo chmod a+rw /dev/ttyUSB0
   * rosrun rosserial_python serial_node.py /dev/ttyUSB0 
+* Run from launch file
+*  roslaunch roboticArm_With_Vision robotVision.launch
 
 ## References:
 * Hand Detection: https://www.analyticsvidhya.com/blog/2021/07/building-a-hand-tracking-system-using-opencv/

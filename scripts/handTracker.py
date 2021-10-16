@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import cv2
 import mediapipe as mp
@@ -69,7 +69,7 @@ def main():
 
         handPoints = detector.findPosition(img)
 
-        #Ways to mo
+        #Ways to move
         if len(handPoints) != 0:
             #Distance of hand from cam is with wrist point (0) and thumb start (1)
             #Max 50 and min 25? need to test
@@ -83,11 +83,7 @@ def main():
             height = 'Up' if handPoints[9][2] < H/2 else 'Down'
             side = 'Left' if handPoints[9][1] < W/2 else 'Right'
 
-            print(f'Distance: {distanceCam} Height: {height} Side: {side} Hand: {hand}')
-            
-            #print(f'Distance from Open: {distanceMiddle}')
-            #print(handPoints[0])
-            #print(handPoints[5])
+            #print(f'Distance: {distanceCam} Height: {height} Side: {side} Hand: {hand}')
 
             #Goes from 0 to W, servo should be from 0 to 180
             s1 = math.floor((handPoints[9][1])*180/(W))
